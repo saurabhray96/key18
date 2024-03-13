@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saurabh</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="body">
+    <header class="flex h-20 mb-2 " >
+        <div class="w-1/4 pt-2 ml-4 text-right pr-8 grid place-items-center " >
+        <div id="logo" style="background-image: url(logo.png); background-size: 50px;" 
+        class="w-12 h-12 bg-no-repeat  bg-center rounded-full"></div></div>
+        <div class=" gap-4 w-3/4 font-normal font-mono text-white flex pt-8 h-full  ">
+        <table class="text-right">
+            <ul>Flavour</ul>
+            <ul>Find Up</ul>
+            <ul>About Us</ul>
+            <ul>Fresh Cream</ul>
+        </table>
+    </div>
+    </header>
+    <main class=" h-96 "> 
+        <div class="text-start h-full float-left w-52">
+            <div class=" text-center orange overflow-hidden">
+                <img id="orange" src="orange1.jpg" alt="orangeImg">
+            </div>
+        </div>
+        <div id="orangeText" style="transition: 2s;"
+         class="orangeText duration-700 pt-10 ml-10 text-start h-full float-left">
+            <h1 class="text-3xl font-serif text-white">Fresh Orange</h1>
+            <p class="text-sm text-white pt-4 mt-2">"Experience the zesty delight of fresh oranges, bursting with flavor and nutrients.
+                 Savor the tangy sweetness and invigorating aroma of nature's finest fruit. From boosting immunity to enhancing heart health, indulge in the juicy goodness of oranges for a vibrant lifestyle."</p>
+                <button class="active:bg-green-400 w-20 mt-4 rounded text-sm pt-1 pb-1 bg-white">
+                    buy Now
+                </button>
+        </div>
+
+        <div id="grapsText" hidden style="transition: 2s;"
+         class="orangeText duration-700 pt-10 ml-10 text-start h-full float-left">
+            <h1 class="text-3xl font-serif text-white">Fresh Grapes</h1>
+            <p class="text-sm text-white pt-4 mt-2">"Experience the zesty delight of fresh grapes, bursting with flavor and nutrients.
+                 Savor the tangy sweetness and invigorating aroma of nature's finest fruit. From boosting immunity to enhancing heart health, indulge in the juicy goodness of grapes for a vibrant lifestyle."</p>
+                <button class="active:bg-green-400 w-20 mt-4 rounded text-sm pt-1 pb-1 bg-white">
+                    buy Now
+                </button>
+        </div>
+
+        <div class="canImg duration-700 h-full text-start pl-2  float-left pt-2">
+            <div id="orangeFanta" onclick="big()" class="orangeFanta float-left w-5/6 pt-10  bg-center h-full bg-no-repeat  "
+             style="background-image: url(orangeCan1.png); background-size: 380px; "></div>
+            <div id="grapsFanta" onclick="change()" class="grapsFanta  float-left w-1/6 h-full bg-no-repeat "
+             style="background-image: url(graps1.png); background-size: 200px; background-position: -60px;"> 
+            </div>
+        </div>
+    </main>
+ 
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
